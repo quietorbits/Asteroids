@@ -13,6 +13,7 @@ PLAYER_SHOOT_SPEED = 500
 
 # Shooting
 SHOT_RADIUS = 5
+SHOT_COOLDOWN_SECONDS = 0.3
 
 
 # Asteroids
