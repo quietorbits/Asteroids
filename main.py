@@ -23,8 +23,9 @@ def main():
     AsteroidField.containers = (updatable,)
     Shot.containers = (shots, updatable, drawable)
     asteroid_field = AsteroidField()
-    player = Player(SCREEN_WIDTH / 2 , SCREEN_HEIGHT / 2)
 
+    
+    player = Player(SCREEN_WIDTH / 2 , SCREEN_HEIGHT / 2)
 
 
     print(f"Starting Asteroids with pygame version: {pygame.version.ver}")
